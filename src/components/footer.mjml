@@ -1,0 +1,34 @@
+<mj-section css-class="pad-top footer">
+    <mj-column>
+        <mj-text align="center" mj-class="text">
+            <div class="social">
+                <a href="https://www.facebook.com">
+                    <img src="https://www.datocms-assets.com/36788/1603996770-logo-twitter-1.png" alt="Twitter" width="24px" height="24px" />
+                </a>
+
+                <a href="https://www.facebook.com">
+                    <img src="https://www.datocms-assets.com/36788/1603996765-logo-facebook-1.png" alt="Facebook" width="24px" height="24px" />
+                </a>
+
+                <a href="https://www.facebook.com">
+                    <img src="https://www.datocms-assets.com/36788/1603996767-logo-linkedin-1.png" alt="LinkedIn" width="24px" height="24px" />
+                </a>
+            </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section css-class="pad-bottom footer">
+    <mj-column>
+        <mj-text mj-class="text">
+            <p class="text-footer">
+                <span>© 2020 EA First</span>
+                <span>Registration no: 11909737</span>
+            </p>
+
+            <div class="text-unsubscribe">
+                <a href="">Unsubscribe</a>
+            </div
+        </mj-text>
+    </mj-column>
+</mj-section>

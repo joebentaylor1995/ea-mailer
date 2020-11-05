@@ -1,0 +1,12 @@
+<mj-section css-class="section">
+    <mj-column css-class="pad-top pad-sides">
+        <mj-table>
+            <tr style="text-align:left">
+                <th class="logo">
+                    <img src="https://www.datocms-assets.com/36788/1603937220-logo.png" width="96px" height="48px" alt="Logo"/>
+                </th>
+                <th class="date text-date" style="">Tuesday, October 27, 2020</th>
+            </tr>
+        </mj-table>
+    </mj-column>
+</mj-section>

@@ -1,0 +1,6 @@
+
+<mj-section css-class="section">
+    <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#E6E6E9" css-class="splitter"/>
+    </mj-column>
+</mj-section>

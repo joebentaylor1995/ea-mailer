@@ -1,0 +1,30 @@
+<mj-section css-class="section pad">
+    <mj-column>
+        <mj-text mj-class="title">
+            <h1 style="margin: 0;">
+                <span class="title-main">Opening doors &amp; unlocking</span>
+                <span class="title-sub">the brightest talent in the market across the region</span>
+            </h1>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section css-class="section">
+    <mj-column>
+        <mj-image padding="0" src="https://www.datocms-assets.com/36788/1603937481-hero.jpg" alt="Hero Image" width="600px" height="456px"/>
+    </mj-column>
+</mj-section>
+
+<mj-section css-class="section pad">
+    <mj-column>
+        <mj-text mj-class="text">
+            <p class="text-body text-body-last">We were born out of an ethos to make a difference and it continues to set us apart from the competition; with some of the most experienced consultants working in the local market, not only do we have the knowledge &amp; expertise, we have a collective desire to offer an unparalleled service to both our clients and candidates alike.</p>
+            <div class="extra-margin-top">
+                <a href="https://www.ea-first.com/about-us" class="text-button">
+                    <img src="https://www.datocms-assets.com/36788/1603937993-arrow.png" alt="Arrow Icon" width="16px" height="16px"/>
+                    <span>About Us</span>
+                </a>
+            </div>
+        </mj-text>
+    </mj-column>
+</mj-section>

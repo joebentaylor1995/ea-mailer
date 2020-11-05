@@ -1,0 +1,51 @@
+<mj-section css-class="section pad-top pad-sides">
+    <mj-column>
+        <mj-text mj-class="title">
+            <div class="title-margin">
+                <h2 style="margin: 0;">
+                    <span class="title-main">A little about</span>
+                </h2>
+
+                <h2 style="margin: 0;">
+                    <span class="title-sub">Our team</span>
+                </h2>
+            </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section css-class="section pad-sides pad-bottom">
+    <mj-column>
+        <mj-text mj-class="text">
+            <p class="text-body">Our team does not only rely on our many years of recruitment experience, but with a proven track record for valuing relationships. We realise the importance of having the right people in your team to enable your business to grow and succeed.</p>
+            <p class="text-body text-body-last">We are dedicated to delivering the brightest and most talented candidates in the marketplace across Cambridgeshire, Northamptonshire &amp; Buckinghamshire at all levels across:</p>
+            <div class="extra-margin-top">
+                <a href="https://www.ea-first.com/jobs/finance" class="text-button">
+                    <img src="https://www.datocms-assets.com/36788/1603937993-arrow.png" alt="Arrow Icon" width="16px" height="16px"/>
+                    <span>Finance</span>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://www.ea-first.com/disciplines/marketing%20" class="text-button">
+                    <img src="https://www.datocms-assets.com/36788/1603937993-arrow.png" alt="Arrow Icon" width="16px" height="16px"/>
+                    <span>Marketing &amp; Creative</span>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://www.ea-first.com/jobs/human-resources" class="text-button">
+                    <img src="https://www.datocms-assets.com/36788/1603937993-arrow.png" alt="Arrow Icon" width="16px" height="16px"/>
+                    <span>Human Resources (HR)</span>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://www.ea-first.com/jobs/information-technology" class="text-button">
+                    <img src="https://www.datocms-assets.com/36788/1603937993-arrow.png" alt="Arrow Icon" width="16px" height="16px"/>
+                    <span>Information Technology (IT)</span>
+                </a>
+            </div>
+        </mj-text>
+    </mj-column>
+</mj-section>

@@ -1,0 +1,250 @@
+<mjml>
+    <mj-head>
+        <!-- Fonts -->
+        <mj-font name="IBM Plex Serif" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;300" />
+        <mj-font name="IBM Plex Sans" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700" />
+
+        <!-- Custom Styles -->
+        <mj-style>
+            * { transition: all .5s cubic-bezier(0.8, 0, 0.2, 1); }
+
+            html,
+            body,
+            .footer { background-color: #F1F1F1; }
+
+            /* Text Styles */
+            .title-main {
+                color: #0E103E;
+                font-weight: 300;
+            }
+
+            .title-sub {
+                color: #D58665;
+                font-weight: 200;
+            }
+
+            .title-main,
+            .title-sub {
+                line-height: 140%;
+                font-size: 30px;
+                margin: 0;
+            }
+
+            .title-margin {
+                margin-bottom: 24px;
+            }
+
+            .text-body,
+            .text-button,
+            .text-date {
+                font-family: ibm Plex Sans, sans-serif;
+                color: #0E103E;
+            }
+
+            .text-body {
+                display: block;
+                opacity: 0.5;
+                margin-bottom: 24px !important;
+                font-weight: 400;
+            }
+
+            .text-body-last {
+                margin-bottom: 0 !important;
+            }
+            
+
+            .text-body,
+            .text-button {
+                font-size: 16px;
+                line-height: 160%;
+                margin: 0;
+                color: #0E103E;
+            }
+
+            .text-button {
+                display: inline-block;
+                text-decoration: none;
+                font-weight: 700;
+                margin-top: 24px;
+            }
+
+            .text-button span { color: #0E103E; }
+
+            .text-button:hover img{
+                opacity: 1;
+                margin-right: 6px;
+            }
+
+            .text-button img {
+                opacity: 0.25;
+                transform: translateY(2px);
+                margin-right: 12px;
+            }
+
+            .text-date {
+                font-size: 12px;
+                color: #0E103E;
+            }
+
+            .text-footer,
+            .text-unsubscribe {
+                font-family: ibm Plex Sans, sans-serif;
+                font-size: 14px;
+                opacity: 0.5;
+                line-height: 160%;
+                text-align: center;
+                color: #0E103E;
+            }
+
+            .text-footer {
+                margin-top: 24px;
+            }
+
+            .text-footer span {
+                display: block;
+            }
+
+            .text-unsubscribe {
+                color: #0E103E;
+            }
+
+            .text-unsubscribe a {
+                color: #0E103E;
+            }
+
+            .text-unsubscribe:hover {
+                opacity: 1;
+            }
+
+            /* Section Styles */
+            .section,
+            .section>table,
+            html.dark .section,
+            html.dark .section>table {
+                background-color: #fdfdfd !important;
+            }
+
+            .pad > table > tbody > tr > td { padding: 36px 24px !important; }
+            .pad-top > table > tbody > tr > td { padding-top: 36px !important; }
+            .pad-bottom > table > tbody > tr > td { padding-bottom: 36px !important; }
+            .pad-sides > table > tbody > tr > td { padding-left: 24px !important; padding-right: 24px !important; }
+
+            .logo { margin-left: 24px; }
+
+            .date {
+                margin-right: 24px;
+                font-weight: 400;
+                text-align: right;
+                vertical-align: bottom;
+            }
+
+            .splitter { margin: 0 24px !important; }
+
+            .quote {
+                margin-top: 24px;
+            }
+
+            .quote-image {
+                margin-left: 24px;
+            }
+
+            .quote-name,
+            .quote-title {
+                display: block;
+            }
+
+            .quote-details {
+                margin-left: 24px;
+            }
+
+            .extra-margin-top { margin-top: 12px; }
+            .extra-margin-bottom { margin-top: 12px; }
+
+            .social a {
+                margin: 0 18px;
+                text-decoration: none;
+                opacity: 0.5;
+            }
+
+            .social a:hover {
+                opacity: 1;
+            }
+
+            /* ****** Desktop Styles ****** */
+            @media (min-width: 499px) { 
+                body {
+                    margin-top: 60px;
+                }
+
+                .title-main,
+                .title-sub {
+                    font-size: 36px !important;
+                }
+
+                .title-margin {
+                    margin-bottom: 36px;
+                }
+
+                .text-body {
+                    margin-bottom: 36px !important;
+                }
+
+                .text-body.text-body-last {
+                    margin-bottom: 0 !important;
+                }
+
+                .text-body,
+                .text-button {
+                    font-size: 18px !important;
+                }
+
+                .text-date {
+                    font-size: 16px !important;
+                }
+
+                .logo { margin-left: 60px; }
+                .date { margin-right: 60px; }
+
+                .text-date { transform: translateY(-3px); }
+
+                /* Section Styles */
+                .pad > table > tbody > tr > td { padding: 60px !important; }
+                .pad-top > table > tbody > tr > td { padding-top: 60px !important; }
+                .pad-bottom > table > tbody > tr > td { padding-bottom: 60px !important; }
+                .pad-sides > table > tbody > tr > td { padding-left: 60px !important; padding-right: 60px !important; }
+
+                .splitter { margin: 0 60px !important; }
+
+                .quote {
+                    margin-top: 36px;
+                }
+
+                .quote-image {
+                    margin-left: 60px;
+                }
+            }
+        </mj-style>
+
+        <!-- Classes -->
+        <mj-attributes>
+            <mj-all font-family="IBM Plex Sans" margin="0" padding="0" max-width="600px"/>
+            <mj-class name="title" font-family="IBM Plex Serif" line-height="140%" />
+            <mj-class name="text" font-family="IBM Plex Sans" line-height="160%" />
+            <mj-class name="title-main" color="#0E103E" font-weight="300" />
+            <mj-class name="title-sub" color="#D58665" font-weight="200" />
+        </mj-attributes>
+
+        <mj-breakpoint width="400px" />
+    </mj-head>
+
+    <mj-body>
+        <mj-include path="../components/header.mjml" />
+        <mj-include path="../components/hero.mjml" />
+        <mj-include path="../components/splitter.mjml" />
+        <mj-include path="../components/about.mjml" />
+        <mj-include path="../components/splitter.mjml" />
+        <mj-include path="../components/ambition.mjml" />
+        <mj-include path="../components/quote.mjml" />
+        <mj-include path="../components/footer.mjml" />
+    </mj-body>
+</mjml>

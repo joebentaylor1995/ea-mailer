@@ -1,0 +1,38 @@
+<mj-section css-class="section">
+    <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#E6E6E9" />
+    </mj-column>
+</mj-section>
+
+<mj-section css-class="section pad-top pad-sides">
+    <mj-column>
+        <mj-table>
+            <tr style="text-align:left">
+                <th class="quote-image" style="width: 72px;">
+                    <img src="https://www.datocms-assets.com/36788/1603994646-david-mcgarry.png" alt="David McGarry" width="72" height="72" />
+                </th>
+                <th>
+                    <div class="quote-details">
+                        <span class="quote-name text-body text-body-last" style="opacity: 1;">David McGarry</span>
+                        <span class="quote-title text-body text-body-last">Founder &amp; CEO, EA First</span>
+                    </div>
+                </th>
+            </tr>
+        </mj-table>
+    </mj-column>
+</mj-section>
+
+
+<mj-section css-class="section pad-bottom pad-sides">
+    <mj-column>
+        <mj-text mj-class="title">
+            <h3 class="title-main quote">“We stand ready to demonstrate something different. We want to be judged not just on what we say but what we deliver”</h3>
+            <div class="extra-margin-top">
+                <a href="https://www.ea-first.com/contact-us" class="text-button">
+                    <img src="https://www.datocms-assets.com/36788/1603937993-arrow.png" alt="Arrow Icon" width="16px" height="16px"/>
+                    <span>Get in touch</span>
+                </a>
+            </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
